@@ -4,8 +4,7 @@ function bit_stream = demodulation(modulation_name, received, Rb, k, amp, freq)
 %   received: modulated signal received from channel 
 %   Rb = bit rate 
 %   k = samples per bit
-%   amp = amplitude of the modulated signal
-%         scaler for BPSK and QPSK, vector ([max min]) for BASK
+%   amp = amplitude of the modulated signal scaler for BPSK, vector ([max min]) for BASK
 %   freq = carrier frequency of the modulated signal 
 % OUTPUT: 
 %   bit_stream = demodulated bit stream 
